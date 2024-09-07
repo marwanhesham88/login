@@ -18,7 +18,7 @@ async function getRecipe(){
       var html = `
         <div class="col-lg-4 d-flex align-items-stretch ">
             <div class="card mb-4 shadow-sm ">
-                <img src="${recipe.image_url}" class="card-img-top w-100 " alt="${recipe.title}">
+                <img src="${recipe.image_url}" class="card-img-top w-100 test" alt="${recipe.title}">
                 <div class="card-body">
                     <h5 class="card-title">${recipe.title}</h5>
                     <p class="card-text">Publisher: ${recipe.publisher}</p>

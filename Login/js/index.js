@@ -26,10 +26,58 @@ function checkUser() {
         if (signinEmail.value == user[i].email && signinPassword.value == user[i].password) {
             var y = user[i].name;
             localStorage.setItem('userName', y);
-            location.href = '../home/home.html';
+            location.href = 'home/home.html';
            
         }else{
              incorrect.innerHTML = "incorrect email or password"
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// oop example:-
+// function User(name,gender,age){
+// this.name= name;
+// this.gender= gender;
+// this.age= age;
+// }
+
+// function Student(name,gender,age,level,grad){
+//     User.call(this,name,gender,age)
+//     this.level=level;
+//     this.grad=grad;
+// }
+
+// let ahmed = new Student("ahmed","male",29,4,"A")
+// console.log(ahmed)
+
+
+
+
+
+
